@@ -11,6 +11,9 @@ inputs:
 branding:
   color: 'red' 
   icon: 'send'
+outputs:
+  time: # id of output
+    description: 'App center cli output'
 runs:
   using: 'docker'
   image: 'Dockerfile'
