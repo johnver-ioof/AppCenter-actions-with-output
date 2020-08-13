@@ -1,6 +1,6 @@
 # App Center Github Action
 
-This action run any App Center CLI command.
+This action run any App Center CLI command and return output
 
 ## Inputs
 
