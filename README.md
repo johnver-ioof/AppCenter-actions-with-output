@@ -35,6 +35,6 @@ jobs:
     - name: run any App Center CLI command
       uses: joabalea/App-Center-action@v1.0.2
       with:
-        command: appcenter distribute stores publish -s Beta -f app/build/outputs/apk/release/app-release-unsigned.apk -r releaseNote -a user/app
+        command: appcenter build queue --app owner/repo_name --branch master --output json
         token: ${{secrets.APP_CENTER_TOKEN}}
 ```
