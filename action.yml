@@ -1,4 +1,4 @@
-name: 'App Center CLI'
+name: 'App Center CLI OUTPUTS'
 description: 'GitHub Action to use any App Center CLI command'
 author: 'Joris Abalea'
 inputs: 
