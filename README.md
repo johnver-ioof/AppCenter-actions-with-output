@@ -33,7 +33,7 @@ jobs:
     - name: build release 
       run: ./gradlew assembleRelease
     - name: run any App Center CLI command
-      uses: joabalea/App-Center-action@v1.0.2
+      uses: cloud-egl/AppCenter-actions-with-output@v1.0.0
       with:
         command: appcenter build queue --app owner/repo_name --branch master --output json
         token: ${{secrets.APP_CENTER_TOKEN}}
